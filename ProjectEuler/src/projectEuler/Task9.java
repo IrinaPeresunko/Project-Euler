@@ -18,26 +18,7 @@ public class Task9 {
 		return isPythagoreanTriplet;
 	}
 	public static void main(String[] args) {
-		int a = 0;
-		int b = a+1;
-		int c = b+1;
-		
-//		int resultSum = 0;
-//		int answer = 1;
-//		int temp=0;
-//		while(temp<=1000){
-//			if((a+b+c)==1000){
-//				resultSum = a+b+c;
-//				answer = a*b*c;
-//			}
-//			temp = a+b+c;
-//			System.out.println(temp);
-//			a++;b++;c++;
-//		}
-//		System.out.println("a = "+a+"; b = "+b+"; c = "+c);
-//		System.out.println("sum = "+resultSum);
-//		System.out.println("answer = "+ answer);
-		
+		int a = 0,b = 0,c = 0;
 		boolean flag = false;
 		for(a=0;a<1000 && flag!=true;a++){
 			for(b=0;b<1000 && flag!=true;b++){
